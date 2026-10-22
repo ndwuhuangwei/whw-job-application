@@ -100,8 +100,6 @@ python -X utf8 -m unittest discover -s tests -v
 
 测试包含标准库工具回归与真实 XeLaTeX 构建检查。编译工具缺失时对应测试会跳过；Windows 可将 `BASH_EXECUTABLE` 设置为 Git Bash 可执行文件的实际路径。人工流程案例见 [tests/resume-writing-cases.md](tests/resume-writing-cases.md)，它们不是已完成的盲测结果。
 
-## 发布与维护
+## License
 
-将本目录作为独立仓库根目录上传。`.gitignore` 排除了常见个人配置、申请输出和编译文件；它不会从已经提交的历史中删除资料。发布文件应只包含流程、通用模板、脚本和测试，不添加真实申请数据。
-
-个人定制留在自己的工作目录，更新技能时不需重写。维护行为规则时同步相应参考与案例；修改脚本后运行对应测试。许可见 [LICENSE](LICENSE)。
+[MIT License](LICENSE)
