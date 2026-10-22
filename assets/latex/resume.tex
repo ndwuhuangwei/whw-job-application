@@ -1,0 +1,30 @@
+% Generic editable scaffold. Replace all prompts with user-confirmed content.
+% Uses TeX-distributed fonts, not a private font or an embedded PDF.
+\documentclass[UTF8,a4paper,10pt,fontset=fandol]{ctexart}
+\usepackage[margin=18mm]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlist[itemize]{leftmargin=1.4em,itemsep=2pt,topsep=3pt}
+\ctexset{section={format=\large\bfseries,beforeskip=12pt,afterskip=5pt}}
+\begin{document}
+{\LARGE\bfseries 姓名}\hfill 目标岗位
+
+联系方式（填写已确认的信息）
+
+\section*{教育背景}
+学校、学位、专业\hfill 起止时间
+
+\section*{项目经历}
+\textbf{项目名称}\hfill 起止时间
+
+项目问题与个人职责（按真实材料填写）。
+\begin{itemize}
+  \item 写清具体方法、个人贡献与可核实的结果。
+  \item 数字注明必要口径，不填入未经确认的成果。
+\end{itemize}
+
+\section*{其他经历或成果}
+按基底已有栏目与实际材料调整；不适用的栏目删除。
+\end{document}
