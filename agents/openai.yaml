@@ -1,0 +1,7 @@
+interface:
+  display_name: "岗位推荐与简历投递"
+  short_description: "按你的决策串联岗位推荐、基底选择、高亮审阅、简历生成和网申填写"
+  default_prompt: "使用 $whw-job-application，从我提供的招聘入口、JD 或申请目录继续岗位推荐与简历投递流程。"
+
+policy:
+  allow_implicit_invocation: false
