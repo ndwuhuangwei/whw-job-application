@@ -1,0 +1,22 @@
+# Personal configuration and application data do not belong in this repository.
+job-application.local.md
+*.local.*
+/private/
+/resumes/
+/applications/
+application-state.json
+change-log.json
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.build.*/
+*.pdf
+*.aux
+*.log
+*.out
+*.synctex.gz
+.DS_Store
+Thumbs.db
